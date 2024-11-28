@@ -5,7 +5,20 @@ let course = {
     coursename : "Javascript",
     courseprice : "999",
     courseinstructor : "Shetty"
-}
+} 
+
+//JASON //tool(Jason formater)
+
+// {
+//     "name" : "nisha",
+//     "id": 1
+// }
+
+//API
+// [
+//     {}
+//     {}
+// ]
 
 //destructring it
 const {courseinstructor : instructor} = course;
@@ -16,5 +29,7 @@ const navbar = ({company}) => {
 
 }
 navbar(company = "nikshitha");
+
+
 
 
