@@ -1,5 +1,5 @@
 //Array
-//1)push(0)  2) pop()  3)unshift(0)  4)shift()  5)includes(5)  6)indexOf() 7) join 8)slice() 9)splice()  10)concat() 11)spread() 12)flat(Infinity) 13)reverse
+//1)push(0)  2) pop()  3)unshift(0)  4)shift()  5)includes(5)  6)indexOf() 7) join 8)slice() 9)splice()  10)concat() 11)spread() 12)flat(Infinity) 13)reverse()
 
 let arr =[2,5,6,7,8,4];
 console.log(arr);
