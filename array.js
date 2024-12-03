@@ -1,5 +1,5 @@
 //Array
-//1)push(0)  2) pop()  3)unshift(0)  4)shift()  5)includes(5)  6)indexOf() 7) join 8)slice() 9)splice()  10)concat() 11)spread() 12)flat(Infinity)
+//1)push(0)  2) pop()  3)unshift(0)  4)shift()  5)includes(5)  6)indexOf() 7) join 8)slice() 9)splice()  10)concat() 11)spread() 12)flat(Infinity) 13)reverse
 
 let arr =[2,5,6,7,8,4];
 console.log(arr);
@@ -88,6 +88,12 @@ let score2 = 200;
  console.log(Array.of(score1, score2, score3)); //[ 100, 200, 300 ] //we create a new array
  console.log(Array.from(`${score1} ${score2} ${score3}`)); // ['1', '0', '0', ' ','2', '0', '0', ' ','3', '0', '0']
 
+ //13)Reverse()
+ //Convert the string to an array using split("").
+//Reverse the array using reverse().
+//Convert the array back to a string using join("").
+let numbers = [1, 2, 3, 4, 5];
+let reversedNumbers = numbers.reverse();
 
 
 
